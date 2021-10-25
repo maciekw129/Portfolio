@@ -5,14 +5,24 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: 'Gentium Book Basic', serif;
+        font-family: 'Roboto Mono', monospace;
     }
 
     body {
-        background-color: #255E73;
+        background-color: hsl(0, 0%, 85%);
         font-family: 'Gentium Book Basic', serif;
-        padding: 3rem 4rem;
+        width: 100%;
+    }
+
+    a {
+        color: black;
+    }
+
+    h1 {
+        font-family: 'Gentium Book Basic', serif;
     }
 `;
+
+//#3588A6
 
 export default GlobalStyles;
